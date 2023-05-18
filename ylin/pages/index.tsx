@@ -19,10 +19,16 @@ export default function Home() {
 		rel="noopener noreferrer"><p>GitHub</p></a>
 		</div>
 		
-       <div><h1>Yadanar Lin</h1></div>
-	   <p>Mingalarbar! <br></br>I am a girl from Myanmar with a huge heart for coding.
-	   <br /> Explore below to know more about me!</p>
+       <div><h1 className={`p-12 text-4xl text-center font-semibold`}>Yadanar Lin</h1>
+	   <p>Mingalarbar! </p><br></br> <br /> I am : <br /> <br />
+	   <li> a girl from Myanmar with a huge heart for coding.</li><br />
+	  <li> a third year undergraduate at Toyo University. </li><br />
+	   <li>a full scholarship recipient. </li>
+	   <br /> <p> I study Information Networking For Innovation And Design.</p>
+	   <br /><p  className={`mb-3 text-xl text-center p-12`}> Explore below to know more about me!</p>
       
+</div>
+
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
@@ -31,7 +37,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h2 className={`mb-3 text-xl font-semibold`}>
             Projects{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
@@ -45,7 +51,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h2 className={`mb-3 text-xl font-semibold`}>
             Work History{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
@@ -59,7 +65,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h2 className={`mb-3 text-xl font-semibold`}>
 		  Awards & Certifications{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
@@ -74,7 +80,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h2 className={`mb-3 text-xl font-semibold`}>
            Personal Blog{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;

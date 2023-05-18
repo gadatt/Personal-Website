@@ -9,7 +9,7 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center justify-between p-12 ${inter.className}`}
     >
 		
-      <div className="relative font-bold text-xl pb-4 flex place-items-center">
+      <div className="relative font-bold text-2xl pb-4 flex place-items-center">
        <p>Projects</p>
       </div>
 	
@@ -35,7 +35,14 @@ export default function Home() {
 			<li>After the user is registered, he or she can write reviews for the business.</li>
 			<li>The reviews can be deleted or edited after being posted.</li>
 			<li>They can also comment on other reviews or give likes to them!</li>
-
+		<br />
+		<a
+          href="/"
+        >
+          <h2 className={`mb-3 text-xs underline font-semibold`}>
+          Home{' '}
+          </h2>
+        </a>
 		</div>
 
     </main>
