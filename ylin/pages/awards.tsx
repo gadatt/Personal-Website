@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Link  from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,7 +15,7 @@ export default function Home() {
       </div>
 
 	<div >
-	  <p className={`mb-3 text-xl font-semibold`}>1. Japan's Venture Academy </p>
+	  <p className={`mb-3 text-xl font-semibold`}>1. Japan`&apos;`s Venture Academy </p>
 	  <li>
 		Role - Participant
 	  </li>
@@ -46,13 +47,13 @@ export default function Home() {
 	  <li>Responsibilites - Come up with an innovative solution to solve trash problem with LEGO Mindstorm EV3. </li>
 	<br />
 
-	<a
+	<Link
           href="/"
         >
           <h2 className={`mb-3 text-xs underline font-semibold`}>
           Home{' '}
           </h2>
-        </a>
+        </Link>
 
 	  </div>
 
