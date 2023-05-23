@@ -25,9 +25,9 @@ export default function Home() {
 		<br />
 		</div>
 		</div>
-	  	<div><Image src="/static/images/intro.png" width={300} height={300} alt="Delayed Train"></Image></div>
+	  	<div><Image src="/static/images/intro.svg" width={300} height={300} alt="Intro Message"></Image></div>
 		  <br />
-		<div><Image src="/static/images/delayed.png" width={400} height={400} alt="Delayed Train"></Image></div>
+		<div><Image src="/static/images/delayed.svg" width={400} height={400} alt="Delayed Train"></Image></div>
 		<br />
 
 		<div>

@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -20,15 +21,24 @@ export default function Home() {
 		</div>
 		
        <div><h1 className={`p-12 text-4xl text-center font-semibold`}>Yadanar Lin</h1>
-	   <p>Mingalarbar! </p><br></br> <br /> I am : <br /> <br />
-	   <li> a girl from Myanmar with a huge heart for coding.</li><br />
-	  <li> a third year undergraduate at Toyo University. </li><br />
-	   <li>a full scholarship recipient. </li>
-	   <br /> <p> I study Information Networking For Innovation And Design.</p>
-	   <br /><p  className={`mb-3 text-xl text-center p-12`}> Explore below to know more about me!</p>
+	   <p className={`mb-3 text-xl text-center font-semibold p-4`}> Mingalarbar!</p>
+
+<p className={`mb-3 text-s text-left p-12`}>I am a passionate coder from Yangon, Myanmar. <br /> <br />
+
+Currently, I am a third-year undergraduate student at Toyo University, where I am pursuing a degree in Information Networking for Innovation and Design. I feel incredibly fortunate to have received a full scholarship for my studies. <br />
+<br />
+
+My coding journey began in the 9th grade, and since then, I have been captivated by the world of programming. While in high school, I participated in robotics, which helped me realize that the software aspect fascinated me more. This realization led me to choose my current major.<br /><br />
+
+Among the languages I have learned, Python stands out as my most proficient language. I have also taken the initiative to self-study JavaScript, expanding my skill set further.
+<br /> <br />  As I look to the future, I am eager to connect with a network of professionals who can help me lay the groundwork for my upcoming career.
+
+<br /> <br />I am excited about the opportunities that lie ahead and the potential to make a meaningful impact in the field of coding. Thank you for taking the time to learn about my journey! </p>
+	   <p  className={`mb-3 text-xl text-center p-4`}> Explore below to know more about me!</p>
       
 </div>
 
+<br />
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
