@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
 	<div >
-	  <p className={`mb-3 text-xl font-semibold`}>1. Japan`&apos;`s Venture Academy </p>
+	  <p className={`mb-3 text-xl font-semibold`}>1. Japan&apos;s Venture Academy </p>
 	  <li>
 		Role - Participant
 	  </li>
